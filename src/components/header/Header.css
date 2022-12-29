@@ -6,7 +6,7 @@
     margin-top: 0;
     top: 0;
     left: 0;
-    z-index: var(--body-color);
+    z-index: 9999;
     background-color: #fff;
 }
 
