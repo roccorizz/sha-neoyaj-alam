@@ -29,7 +29,7 @@
   --h2-font-size: 2.15rem;
   --h3-font-size: 1.50rem;
   --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
+  --small-font-size: 0.85rem;
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
@@ -55,7 +55,7 @@
 }
 
 /* Responsive typography */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1023px) {
   :root {
     --big-font-size: 2.75rem;
     --medium-font-size: 2.05rem;
@@ -63,7 +63,7 @@
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
+    --small-font-size: 0.85rem;
     --smaller-font-size: 0.75rem;
 
   }
@@ -133,7 +133,7 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
   margin-bottom: 4rem;
 
 }
@@ -198,6 +198,7 @@ img {
     height: 22px;
 
   }
+
 }
 
 /* For medium devices */
@@ -211,7 +212,10 @@ img {
   }
 
   .section__subtitle {
-    margin-bottom: var(--mb-3);
+
+    font-size: var(--normal-font-size);
+
+
   }
 }
 
@@ -225,6 +229,13 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+
+  }
+
+  .section__subtitle {
+
+    font-size: var(--small-font-size);
+
 
   }
 }

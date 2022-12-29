@@ -47,7 +47,6 @@ const Contact = () => {
                 <div className='contact__content'>
 
                     <h2 className='contact__title'>Write me a project</h2>
-
                     <form ref={form} onSubmit={sendEmail} className="contact__form ">
 
                         <div className="contact__form-div">
