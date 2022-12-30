@@ -1,5 +1,6 @@
-.testimonial__coontainer {
+.testimonials__container {
     width: 750px;
+
 }
 
 .testimonial__card {
@@ -39,12 +40,24 @@
 /*------------- Breakpoints ------------*/
 /* For large devices */
 @media screen and (max-width:1023px) {
-    .testimonial__container {
-        width: initial;
-
-    }
+    .testimonials__container {}
 
     .testimonial__card {
         padding: 1.25rem 1.5rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width:768px) {
+    .testimonials__container {
+        width: 400px;
+    }
+}
+
+/* For small devices */
+
+@media screen and (max-width:439px) {
+    .testimonials__container {
+        width: 300px;
     }
 }

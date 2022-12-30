@@ -10,6 +10,8 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrollUp/ScrollUp';
 import Portfolio from './components/Portfolio/Portfolio';
+
+
 function App() {
   return (
     <div>

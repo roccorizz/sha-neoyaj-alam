@@ -18,18 +18,18 @@ const Testimonials = () => {
             <Swiper className="testimonials__container"
                 loop={true}
                 grabCursor={true}
-                spaceBetween={24}
+                slidesPerView={2}
+                spaceBetween={48}
                 pagination={{
                     clickable: true,
                 }}
                 breakpoints={{
-                    576: {
-                        slidesPerView: 2
 
+                    0: {
+                        slidesPerView: 1,
                     },
                     768: {
-                        slidesPerView: 2,
-                        spaceBetween: 48,
+                        slidesPerView: 1
                     }
                 }}
                 modules={[Pagination]}
